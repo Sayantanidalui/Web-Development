@@ -1,0 +1,98 @@
+#me{
+    float: left;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2%;
+    box-shadow: 0 0 2rem rgb(78, 2, 2);
+}
+#main{
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:40vmin;
+    width: 190vmin;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4vmin;
+    margin-top: 2%;
+}
+.card1{
+    height:70vmin;
+    width:50vmin;
+    background-color: rgb(243, 199, 145);
+    border: none;
+    border-radius: 1rem;
+    color: black;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+}
+.card1:hover{
+    box-shadow: 0 0 3rem rgb(112, 7, 7);
+    transform:scale(1,1.1);
+    transition: 0.5s ease;
+}
+body{
+    background-color: rgba(222, 219, 59, 0.907);
+}
+#painting{
+    height:60vh;
+    justify-content: center;
+    align-items: center;
+}
+#paint{
+    height:40vmin;
+    width: 200vmin;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4vmin;
+    margin-top: 2%;
+}
+.art{
+    height:46vmin;
+    width:45vmin;
+    background-color: bisque;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 2%;
+}
+.art:hover{
+    box-shadow: 0 0 3rem rgb(131, 6, 6);
+    transform:scale(1,1.1);
+    transition: 0.5s ease;
+}
+#mode{
+    padding:1rem;
+    font-size: 1rem;
+    background-color: rgb(107, 11, 11);
+    color:white;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.842);
+    align-items: center;
+    margin-top: 1%;
+}
+.dark{
+    background-color: rgba(3, 3, 3, 0.94);
+    color: white;
+}
+.light{
+    background-color: rgba(222, 219, 59, 0.907) ;
+    color: black;
+}
+#info,#p{
+    border-radius: 5%;
+    box-shadow: 0 0 1rem black;
+}
+#para{
+    padding-top: 2%;
+}

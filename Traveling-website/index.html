@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="Css/homestyle.css">
+   <script>
+       
+        window.onload=function(){
+            fetch('Components/header.html')
+            .then(response=> response.text())
+            .then(data=>{
+                document.getElementById('header').innerHTML=data;
+            });
+           fetch('Components/slider.html')
+           .then(response=>response.text())
+           .then(data=>{
+            document.getElementById('slider').innerHTML=data;
+           });
+           fetch('Components/visitedplace.html')
+           .then(response=>response.text())
+           .then(data=>{
+            document.getElementById('most').innerHTML=data;
+           });
+           fetch('Components/about.html')
+           .then(response=>response.text())
+           .then(data=>{
+            document.getElementById('about').innerHTML=data;
+           });
+           fetch('Components/review.html')
+           .then(response=>response.text())
+           .then(data=>{
+            document.getElementById('review').innerHTML=data;
+           });
+           fetch('Components/footer.html')
+           .then(response=>response.text())
+           .then(data=>{
+            document.getElementById('Footer').innerHTML=data;
+           });
+        };
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="slider"></div>
+    <h1 id="visit"><span id="m">M</span>ost  <span id="m">V</span>isited <span id="m">P</span>laces</h1>
+    <p id="visit1">Discover the world's most captivating destinations with our curated list of mostly visited places. From breathtaking natural wonders to iconic landmarks, we bring you closer to the beauty and adventure that make every journey unforgettable. Whether you seek adventure, relaxation, or a blend of both, our selection of world-renowned destinations has something for every traveler. Trust our experience and book now to explore with us with our trusted partners. Let us help you plan your dream journey and uncover the wonders of the world. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, nemo quibusdam quod impedit, nesciunt error perspiciatis repudiandae hic doloremque ab voluptas dicta est autem voluptatibus rerum cumque in! Harum, voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, cupiditate iste quas sint ea, dolores quaerat alias laboriosam magni facere dicta, odio nihil cumque labore ut dignissimos beatae sunt molestiae.<br> Let's explore the world with us.</p>
+    <div id="most"></div>
+    <div style="height: 220px;"></div>
+    <div id="about"></div>
+    <h1> Customer's <span id="r">R</span>eviews</h1>
+    <div id="review"></div>
+    <div style="height: 100px;"></div>
+    <div id="Footer"></div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+#navbar{
+    height: 54px;
+    width: 1500px;
+    background-color:rgb(188, 251, 124);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    float: right;
+    padding-right: 7%;
+    margin-top: 1%;
+}
+.list a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+border-radius: 50%;
+margin-top: 0%;
+margin-left: 7%;
+box-shadow: 0 0 0.5rem black;
+}
+#search{
+    margin-left: 9%;
+    margin-right: auto;
+     width: 25%;
+    height:25px;
+    border-radius: 3rem;
+    border: none; 
+    box-shadow: 0 0 0.5rem rgb(67, 64, 64);
+   padding-left: 2%;
+    font-size: 14px;
+    margin-top: 0.7%;
+}
+#upper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;  
+}
+#pic1{
+    margin-top: 3%;
+    border-radius: 5rem;
+    margin-right: 3%;
+}
+span{
+    color:chartreuse;
+}
+h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn1{
+    background-color: chartreuse;
+    color: white;
+    margin-top: 5%;
+    height: 8%;
+    width: 20%;
+    border-radius: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 1.5rem rgb(188, 251, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#middle{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+#item,#wrt1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+#wrt1{
+    margin-left: 12%;
+    margin-right: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+#Categories{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 45%;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 2%;
+}
+#s,#k,#m{
+    padding-left: 2%;
+}
+#main{
+    height:150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    
+    height: 150vmin;
+    width: 160vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vmin;
+}
+.card{
+    height:88vmin;
+    width:50vmin;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 1.5rem rgb(188, 251, 124);
+    
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+#pic2{
+    padding: 1% 1%;
+    border-radius: 2rem;
+}
+#description{
+    padding-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#d{
+    color: red;
+}
+#btn2{
+    background-color: chartreuse;
+    color: white;
+    margin-left: 30%;
+    height: 6%;
+    width: 40%;
+    border-radius: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 1.5rem rgb(188, 251, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#info{
+    padding-left: 8%;
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer{
+    height: 30vh;
+    width: 96%;
+    background-color: rgb(188, 251, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+#list1,#list2,#list3{
+    float: left;
+    padding-right: 5%;
+    list-style: none;
+}
+ #list1 li,#list2 li,#list3 li{
+    padding-bottom: 10%;
+ }  
+ #last{
+    float: right;
+    margin-right: 5%;
+    margin-top: 12%;
+ } 

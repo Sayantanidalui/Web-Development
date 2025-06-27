@@ -1,0 +1,33 @@
+#footer{
+    height:30vh;
+    width: 100%;
+    background-color: rgb(40, 40, 42);
+    margin:0%;
+    color: white;
+}
+#f1,#f2,#f3{
+ float: left;
+}
+#f1{
+    padding-left: 5%;
+}
+#f1 li,#f2 li,#f3 li{
+    list-style: none;
+    padding-bottom: 10%;
+}
+h4{
+    padding-left: 5%;
+    margin-top: 14%;
+    margin-bottom: 15%;
+}
+#f2{
+    padding-left: 10%;
+}
+#f3{
+    padding-left: 10%;
+}
+#p1{
+    float: right;
+    padding-right: 2%;
+    margin-top: 12%;
+}

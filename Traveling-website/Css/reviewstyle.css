@@ -1,0 +1,45 @@
+.main1{
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    display: flex;
+    margin-top: 6%;
+}
+.section1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vmin;
+  width: 200vmin;
+  gap: 10vmin;
+  flex-wrap: wrap;
+
+}
+#r1,#r2,#r3{
+    background-color:azure;
+    height: 50vmin;
+    width: 52vmin;
+    border: none;
+    box-shadow: 0 0 0.8rem black;
+    border-radius: 1rem;
+}
+#im1{
+    border-radius: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#i1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#i2{
+    padding: 2% 2% 3% 3% ;
+}
+#i3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+}
