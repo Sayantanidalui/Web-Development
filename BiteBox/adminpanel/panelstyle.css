@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee!important;
+}
+
+#logo{
+    color: rgb(202, 22, 22);
+    font-size: 30px;
+   margin-left: 10%;
+}
+.sidebar{
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#menus nav ul li{
+    list-style: none;
+}
+
+#menus nav ul li a{
+    text-decoration: none!important;
+    color: black;
+    line-height: 120px;
+    font-weight: 600;
+    font-size: 18px;
+}
+#menus nav ul li a:hover{
+   color: rgb(202, 22, 22);   
+}
+#menus nav ul li a i{
+    padding-right: 10px;
+}
+
+.right-section{
+    height: 100px;
+    background-color: #fff;
+    border-left: 1px solid #fff;
+}
+
+.right-section h5{
+    padding-top: 30px;
+    padding-left: 1%;
+    font-size: 30px;
+}
+
+.right-section form input[type="text"]{
+    width: 300px;
+    margin-left: 500px;
+    margin-top: -40px;
+    border-radius: 2px;
+    margin-right: 5%;
+}
